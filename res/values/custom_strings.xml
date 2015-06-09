@@ -429,6 +429,10 @@
     <string name="longpress_lock_icon_to_sleep_title">Long press lock icon to sleep</string>
     <string name="longpress_lock_icon_to_sleep_summary">This option will not work if both smart lock and accessibility touch exploration are enabled</string>
 
+    <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+
     <!-- Vibrate options -->
     <string name="vibrate_when_ringing_title_eos">For calls</string>
     <string name="vibrate_on_touch_title_eos">On touch</string>
@@ -442,4 +446,8 @@
     <string name="torch_screen_off_one_minute">1 minute</string>
     <string name="torch_screen_off_five_minutes">5 minutes</string>
     <string name="torch_screen_off_ten_minutes">10 minutes</string>
+
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Task Manager</string>
+    <string name="enable_task_manager_summary">Show task manager button in the expanded statusbar area</string>
 </resources>
