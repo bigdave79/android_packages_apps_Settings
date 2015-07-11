@@ -4,6 +4,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/network_traffic_title">
 
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="status_bar_show_data_activity"
+        android:title="@string/show_activity_indicators_title"
+        android:summary="@string/show_activity_indicators_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="network_traffic_state"
         android:title="@string/show_network_traffic_state"
@@ -35,7 +41,7 @@
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold"
         android:max="100"
-        settings:min="0"
+        settings:minimum="0"
         settings:unitsLeft=""
         settings:unitsRight="kB/s"
         android:dependency="network_traffic_autohide"
